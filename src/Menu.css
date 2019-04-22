@@ -1,0 +1,21 @@
+.header {
+display: flex;
+justify-content: left;
+align-items: center;
+max-width: 100%;
+background-color: rgb(36, 114, 145);
+font-family: sans-serif;
+}
+
+.header > h1, h2, a {
+
+    /* background-color: rgb(36, 114, 145); */
+    text-decoration: none;
+    font-weight: 200;
+    display: inline;
+    padding-right: 70px;
+    /* padding-top: 10px; */
+    letter-spacing: -1px;
+    word-spacing: -5px;
+    color: white;
+}
